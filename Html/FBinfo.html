@@ -1,0 +1,72 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Information</title>
+    <link rel="stylesheet" href="styles/blog.css">
+    <style>
+        h1
+        {
+            color: red;
+            background-color: powderblue;
+            text-align: center;
+        }
+        input
+        {
+            color: red;
+        }
+        .sudo
+        {
+            border: 2px solid blue;
+            height: 60px;
+            display: inline;
+        }
+        #value
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Confirm Your Identification</h1>
+        <form>
+            <input type="email" placeholder="Your email">
+            <br>
+            <br>
+            <input type="password" placeholder="Your password">
+            <input type="checkbox">
+            <br>
+            <br>
+            <select>
+                <option value="df">Default</option>
+                <option value="m">Male</option>
+                <option value="fm">Female</option>
+            </select>
+        </form>
+    </div>
+    <div id="value">
+        <ol>
+            <li>windows</li>
+            <li>linux</li>
+            <li>mac</li>
+            <li>arch</li>
+        </ol>
+    </div>
+    <div class="linux">
+        <h1>
+            <header class="op">Linux Overview</header>
+        </h1>
+        <p><span class="sudo">GNU applications </span>also replaced all Minix components, because it was advantageous to use the freely available code from the GNU Project with the fledgling operating system; code licensed under the GNU GPL can be reused in other computer programs as long as they also are released under the same or a compatible license. Torvalds initiated a switch from his original license, which prohibited commercial redistribution, to the GNU GPL.</p>
+    </div>
+    <div class="linux">
+        <h2>Brief Discussion</h2>
+        <p>Unlike X11, Wayland does not need an external window manager and compositing manager. Therefore, a Wayland compositor takes the role of the display server, window manager, and compositing manager. Weston is the reference implementation of Wayland, while GNOME's Mutter and KDE's KWin are being ported to Wayland as standalone display servers.</p>
+    </div>
+    <div class="linux">
+        <h3>Conclusion</h3>
+        <p>Due to the complexity and diversity of different devices, and due to the large number of formats and standards handled by those APIs, this infrastructure needs to evolve to better fit other devices. Also, a good userspace device library is the key to the success of having userspace applications to be able to work with all formats supported by those devices.</p>
+    </div>
+</body>
+</html>

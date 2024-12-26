@@ -1,0 +1,17 @@
+.linux
+{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-block: 30px;
+    border: 10px solid black;
+    border-bottom: 40px;
+    margin-top: 40px ;
+    box-shadow: 10px 10px 20px red;
+}
+.op
+{
+    height: 500px;
+    background-image:url('../styles/chubby\ 1.jpg') ;
+    background-repeat: repeat-x;
+    text-decoration: underline;
+}
