@@ -1,0 +1,25 @@
+.op
+{
+    text-align: center;
+    background-image: url('./Kanchenjunga_view_from_Bangladesh.jpg');
+    height: 160px;
+}
+.ot
+{
+    border: 2px;
+    height: 60px red; 
+    display: inline-block;
+    box-shadow: 10px 10px 20px black;
+    font-style: italic;
+    text-align: justify;
+}
+.cat
+{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-left: 30px;
+    background-image: url('/Pictures/chubby\ 2.jpg');
+    box-shadow: 10px 10px 20px red;
+}
