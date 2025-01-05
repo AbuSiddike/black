@@ -1,0 +1,12 @@
+nav ul li{
+    color: red;
+    display: inline;
+    margin-right: 80px;
+}
+nav li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+}
